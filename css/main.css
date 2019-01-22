@@ -1,0 +1,179 @@
+
+body a{
+    color: #262626;
+    font-family: monospace
+}
+
+
+
+.sidenav {
+    height: 100%; 
+    width: 0;      
+    position: fixed;  
+    z-index: 1; 
+    top: 0;  
+    left: 0;
+    background-color: #f4f4f4; 
+    overflow-x: hidden;  
+    transition: 0.5s;   
+    padding-top: 60px; 
+}
+ 
+ 
+ 
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+
+.sidenav a:hover {
+    color: #262626;
+}
+
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#boton{
+    display: none;
+    
+}
+
+.bordeiz{
+    border-right: 1px solid #262626;
+}
+
+.h{
+    font-size: 60px;
+}
+
+.hh{
+    font-size: 60px;
+}
+
+.img{
+    position: relative;
+}
+
+.oscuro{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+
+.img:hover .oscuro{
+    opacity: 1;
+}
+
+.texto{
+    color: #ffffff;
+}
+
+.fondo{
+    background: #f4f4f4;
+}
+
+.regis{
+    background: #cef3dd;
+    padding: 30px;
+    margin: 30px;
+}
+.regis p{
+    font-size: 40px
+}
+
+.m5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inp{
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #f4f4f4;
+}
+
+@media (max-width: 992px){
+    #boton{
+        display: block;
+        top: -90px;
+        left: 9px;
+    }
+    .logo{
+        left: 36%;
+    }
+}
+
+@media (max-width: 768px){
+    .bordeiz{
+        display: none;
+    }
+    .logo{
+        left: 27%;
+
+    }
+    .escondido{
+        display: none;
+    }
+    .regis{
+        padding: 9px;
+        margin: 9px;
+        
+    }
+    .regis p{
+        font-size: 25px;
+    }
+    .hh{
+        font-size: 45px;
+    }
+    .m5{
+        margin: 9px 0px;
+    }
+    .inp{
+        margin: 0 0 9px 0;
+    }
+
+}
+
+@media (max-width: 576px){
+    .logo{
+        left: 18%
+    }
+    .regis{
+        padding: 9px;
+        margin: 9px;
+        
+    }
+    .regis p{
+        font-size: 18px;
+    }
+    .hh{
+        font-size: 27px;
+    }
+}
+
+/* En pantallas más pequeñas, donde la altura es inferior a 450 px, cambia el estilo del 
+sidenav (menos relleno y un tamaño de fuente más pequeño) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  

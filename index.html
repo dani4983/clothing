@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clothing</title>
+    <!--    BOOTSTRAP    -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--Custom-->
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+   <div class="container">
+        <span id="boton" style="font-size:30px; cursor:pointer" onclick="openNav()"><b>&#9776;</b></span>
+        <ul class="nav justify-content-end mr-3">
+            <li class="nav-item bordeiz">
+              <a class="nav-link escondido" href="#">Help</a>
+            </li>
+            
+            <li class="nav-item bordeiz">
+              <a class="nav-link escondido" href="#">Contact Us</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+        </ul>
+
+   </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        
+        <div class="container">
+        <a class="navbar logo" href="#"><img src="./img/logo.png" style="width: 60%" alt="Clothing"></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-5 h5">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item mr-5 h5">
+                  <a class="nav-link" href="#">Journal</a>
+                </li>
+                <li class="nav-item mr-5 h5">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item mr-5 h5">
+                  <a class="nav-link" href="#">More <i class="fas fa-angle-down"></i></a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="dropdown">
+                <a class="mb-5" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop <i class="fas fa-angle-down closet"></i></a>
+                
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                    <a class="dropdown-item" href="#">Jacket</a>
+                    <a class="dropdown-item" href="#">Gloves</a>
+                    <a class="dropdown-item" href="#">jeans</a>
+                    <a class="dropdown-item" href="#">Polos</a>
+                    <a class="dropdown-item" href="#">hoodies</a>
+                </div>
+            </div>
+            <a class="mb-5" href="#">Journal</a>
+            <a class="mb-5" href="#">About</a>
+            <div class="dropdown">
+                <a class="mb-5" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More <i class="fas fa-angle-down closet2"></i>
+                </a>
+                  
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Lookbook</a>
+                    <a class="dropdown-item" href="#">Videos</a>
+                    <a class="dropdown-item" href="#">Phototour</a>
+                    <a class="dropdown-item" href="#">Giving Back</a>
+                    <a class="dropdown-item" href="#">Wallpapers</a>
+                    <a class="dropdown-item" href="#">Gift Guides</a>
+                </div>
+            </div>
+            <a class="mb-5" href="#">Help</a>
+            <a class="mb-5" href="#">Contact Us</a>
+          </div>
+
+          
+
+    
+
+    <div class="container escondido">
+        <nav class="nav nav-pills nav-justified nav-light fondo">
+            <a class="nav-item nav-link disabled" href="/"></a>
+            <a class="nav-item nav-link" href="#">Jacket</a>
+            <a class="nav-item nav-link" href="#">Gloves</a>
+            <a class="nav-item nav-link" href="#">jeans</a>
+            <a class="nav-item nav-link" href="#">Polos</a>
+            <a class="nav-item nav-link" href="#">hoodies</a>
+            <a class="nav-item nav-link disabled" href="/"></a>
+        </nav>
+    </div>
+
+    <div class="container-fluid contenido">
+        <div class="row">
+            <div class="col-12 my-5 text-center">
+                <h1 class="h">Best Sellers</h1>
+            </div>
+        </div>
+    </div>
+   <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/jeans1.png" style="width: 100%" alt="jeans1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Jeans</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/jeans2.png" style="width: 100%" alt="jeans2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Jeans</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/jeans3.png" style="width: 100%" alt="jeans3">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Jeans</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/polo1.png" style="width: 100%" alt="polo1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Polos</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/polo2.png" style="width: 100%" alt="polo2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Polos</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/polo3.png" style="width: 100%" alt="polo3">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Polos</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/shoes1.png" style="width: 100%" alt="shoes1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Shoes</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/shoes2.png" style="width: 100%" alt="shoes2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Shoes</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/shoes3.png" style="width: 100%" alt="shoes3">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Shoes</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/bag1.png" style="width: 100%" alt="bag1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Bag</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/bag2.png" style="width: 100%" alt="bag2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Bag</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/bag3.png" style="width: 100%" alt="bag3">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Bag</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/hat1.png" style="width: 100%" alt="hat1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Hats</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/cap1.png" style="width: 100%" alt="cap1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Caps</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/hat2.png" style="width: 100%" alt="hat2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Hats</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/croc1.png" style="width: 100%" alt="croc1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Crocs</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/croc2.png" style="width: 100%" alt="croc2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Crocs</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/croc3.png" style="width: 100%" alt="croc3">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Crocs</b> </h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class=" col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/croc4.png" style="width: 100%" alt="croc4">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Crocs</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/croc5.png" style="width: 100%" alt="croc5">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Crocs</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/croc6.png" style="width: 100%" alt="croc6">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Crocs</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/gloves1.png" style="width: 100%" alt="gloves1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Gloves</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/gloves2.png" style="width: 100%" alt="gloves2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Gloves</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/gloves3.png" style="width: 100%" alt="gloves3">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Gloves</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/hoodie1.png" style="width: 100%" alt="hoodie1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Hoodies</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/hoodie2.png" style="width: 100%" alt="hoodie2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Hoodies</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/hoodie3.png" style="width: 100%" alt="hoodie3">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Hoodies</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/jacket1.png" style="width: 100%" alt="jacket1">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Jackets</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/jacket2.png" style="width: 100%" alt="jacket2">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Jackets</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 mb-4">
+                    <div class="img">
+                        <img src="./img/jacket3.png" style="width: 100%" alt="jacket3">
+                        <div class="oscuro">
+                            <p class="texto text-center"><del>sm</del> md lg xl</p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="my-3"><b>Jackets</b></h3>
+                        <p class="h5 my-3">$33.33</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   
+   <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 regis offset-1 m-5">
+                    <div class="text-center m-5">
+                        <h4 class="hh">Get Journal Updates</h4>
+                         <p>Sign up to get weekly emails with inspiration and special content.</p>
+                    </div>
+                    <div class="col-md-6 offset-3 m5">
+                        <div class="input-group inp">
+                            <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                               <span class="input-group-text text-light bg-dark" id="basic-addon2">Subscribe <i class="fas fa-long-arrow-alt-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <footer>
+       <div class="container">
+            <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 offset-3 my-5">
+                            <div class="row">
+                                 <div class="col-md-6">
+                                     <h5>Customer Service</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">Help / FAQ</a></li>
+                                         <li><a href="#">Size Charts</a></li>
+                                         <li><a href="#">Returns & Exchanges</a></li>
+                                         <li><a href="#">Gift Cards</a></li>
+                                         <li><a href="#">Contact Us</a></li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-md-6">
+                                     <h5>About</h5>
+                                     <ul class="list-unstyled">
+                                         <li><a href="#">Our Story</a></li>
+                                         <li><a href="#">Giving back</a></li>
+                                         <li><a href="#">Resources</a></li>
+                                         <li><a href="#">Shop</a></li>
+                                     </ul>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center my-5">
+                            <p><i class="fas fa-atom fa-6x"></i></p>
+                            <p>Copyright &copy; 2019</p>
+                            <p>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:88px;height:31px"
+                                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                    alt="¡CSS Válido!" />
+                            </a>
+                            </p>
+                            <div class="d-flex flex-row justify-content-center">
+                                 <div class="p-2">
+                                   <a href="http://facebook.com/fer-net-web" target="_blank">
+                                     <i class="fab fa-facebook-f fa-2x"></i>
+                                   </a>
+                                 </div>
+                                 <div class="p-2">
+                                   <a href="http://twitter.com/fer-net-web" target="_blank">
+                                     <i class="fab fa-twitter fa-2x"></i>
+                                   </a>
+                                 </div>
+                                 <div class="p-2">
+                                   <a href="http://instagrand.com" target="_blank">
+                                     <i class="fab fa-instagram fa-2x"></i>
+                                   </a>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+       </div>
+   </footer>
+    <!--script customizado-->
+    <script>
+
+
+            /* Establece el ancho de la navegación lateral a 250px */
+            
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            
+            /* Establezca el ancho de la navegación lateral a 0 */
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+
+
+
+    <script>
+        const btnToggle = document.querySelector('.toggleBoton');
+
+        btnToggle.addEventListener('click', function() {
+              document.getElementById('sidebar').classList.toggle('active')
+        });
+    </script>
+
+
+    <!--   BOOTSTRAP SCRIPTS    -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
